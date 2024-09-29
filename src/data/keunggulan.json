@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+		"icon": "fa-solid fa-book",
+		"title": "Pembaharuan Materi Secara Berkala",
+		"description": "Materi yang relevan seiringnya perkembangan zaman."
+  },
+  {
+    "id": "2",
+		"icon": "fa-solid fa-school",
+		"title": "Memperkuat Interaksi Guru dan Siswa",
+		"description": "Menciptakan lingkungan belajar yang kolaboratif dan responsif."
+  },
+  {
+    "id": "3",
+		"icon": "fas fa-chalkboard-teacher",
+		"title": "Kemudahan Akses Materi Ajar",
+		"description": "Mendukung pembelajaran secara fleksibel dan keterlibatan orang tua dalam memantau perkembangan siswa."
+  },
+  {
+    "id": "4",
+		"icon": "fa fa-check",
+		"title": "Evaluasi Pembelajaran Berkelanjutan",
+		"description": "Memfasilitasi pemantauan perkembangan siswa secara langsung dan memberikan rekomendasi yang sesuai."
+  }
+]

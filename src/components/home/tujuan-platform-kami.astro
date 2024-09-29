@@ -1,0 +1,25 @@
+---
+import PropsTujuanPlatformKami from "@/data/tujuan-platform-kami.json";
+---
+
+<section class="mx-auto mt-24 flex w-4/5 cursor-default flex-col">
+  <h2 class="text-center text-4xl font-bold">Tujuan Platform Kami</h2>
+  <div class="mt-24 grid grid-cols-3 gap-10">
+    {PropsTujuanPlatformKami.map((item) => (
+      <figure
+        id={item.id}
+        class="flex h-full w-full flex-col justify-start rounded-2xl bg-[#d9d9d9] text-slate-950 transition-all duration-300 ease-in-out [box-shadow:0.3rem_0.3rem_0_#bcbcbc50] first:mt-0 lg:mt-0 lg:w-[90%]"
+      >
+        <span class="mx-auto -mt-16 grid h-32 w-32 place-items-center rounded-full bg-[#c3c3c3]">
+          <i class={`${item.icon} text-4xl`} />
+        </span>
+        <h3 class="mx-auto my-6 h-fit w-4/5 text-xl font-bold lg:text-2xl xl:text-xl">
+        	{item.title}
+        </h3>
+        <figcaption class="mx-auto mb-12 h-fit w-4/5 text-justify">
+          {item.description}
+        </figcaption>
+      </figure>
+    ))}
+  </div>
+</section>

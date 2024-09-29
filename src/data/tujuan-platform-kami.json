@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "icon": "fa-solid fa-graduation-cap",
+    "title": "Personalisasi Proses Belajar",
+    "description": "Memungkinkan setiap siswa belajar sesuai dengan gaya dan karakter mereka, sehingga menciptakan pengalaman yang lebih efektif."
+  },
+  {
+    "id": "2",
+    "icon": "fa-solid fa-robot",
+    "title": "Integrasi Kecerdasan Buatan",
+    "description": "Menganalisis kebutuhan siswa dan memberikan rekomendasi materi serta metode pengajaran yang tepat."
+  },
+  {
+    "id": "3",
+    "icon": "fa-solid fa-chart-line",
+    "title": "Meningkatkan efektivitas Pembelajaran",
+    "description": "Melalui pemahaman yang mendalam terhadap kebutuhan siswa."
+  }
+]
