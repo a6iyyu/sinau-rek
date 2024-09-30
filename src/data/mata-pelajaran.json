@@ -1,26 +1,26 @@
 [
   {
     "id": "1",
-    "image": "/banner-1.jpg",
+    "image": "/matematika.jpg",
     "title": "Matematika",
-    "description": "Memungkinkan pembelajaran kapan saja dan dimana saja serta mendukung keterlibatan orang tua dalam memantau perkembangan anak."
+    "description": "Mengasah kemampuan berpikir logis dan pemecahan masalah dengan pendekatan angka dan teori."
   },
   {
     "id": "1",
-    "image": "/banner-2.jpg",
+    "image": "/fisika.jpg",
     "title": "Fisika",
-    "description": "Memungkinkan pembelajaran kapan saja dan dimana saja serta mendukung keterlibatan orang tua dalam memantau perkembangan anak."
+    "description": "Menjelajahi prinsip dasar alam semesta dengan mempelajari gerak, energi, gaya, dan hukum-hukum alam."
   },
   {
     "id": "1",
-    "image": "/banner-3.jpg",
+    "image": "/kimia.jpg",
     "title": "Kimia",
-    "description": "Memungkinkan pembelajaran kapan saja dan dimana saja serta mendukung keterlibatan orang tua dalam memantau perkembangan anak."
+    "description": "Mengungkap rahasia dunia molekul dan atom melalui analisis reaksi kimia, sifat-sifat zat, dan perubahan materi."
   },
   {
     "id": "1",
-    "image": "/banner-1.jpg",
+    "image": "/biologi.jpg",
     "title": "Biologi",
-    "description": "Memungkinkan pembelajaran kapan saja dan dimana saja serta mendukung keterlibatan orang tua dalam memantau perkembangan anak."
+    "description": "Mempelajari kehidupan dalam segala bentuknya, mulai dari sel terkecil hingga ekosistem yang kompleks."
   }
 ]

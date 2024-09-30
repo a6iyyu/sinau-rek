@@ -6,7 +6,7 @@ import PropsKeunggulan from "@/data/keunggulan.json";
   {PropsKeunggulan.map(item => (
     <div id={item.id} class="mt-5 flex items-center first:mt-0 lg:mt-0">
       <i class={`${item.icon} grid h-16 w-16 place-items-center rounded-xl bg-[#d9d9d9] [box-shadow:0.15rem_0.15rem_0_#bcbcbc99]`} />
-      <span class="my-auto ml-4 flex h-fit w-fit flex-col items-start text-left">
+      <span class="my-auto ml-4 flex h-fit w-fit flex-col items-start text-left text-slate-50">
         <strong class="text-lg">{item.title}</strong>
         <h5 class="text-base">{item.description}</h5>
       </span>
