@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "image": "/banner-1.jpg",
+    "title": "Matematika",
+    "description": "Memungkinkan pembelajaran kapan saja dan dimana saja serta mendukung keterlibatan orang tua dalam memantau perkembangan anak."
+  },
+  {
+    "id": "1",
+    "image": "/banner-2.jpg",
+    "title": "Fisika",
+    "description": "Memungkinkan pembelajaran kapan saja dan dimana saja serta mendukung keterlibatan orang tua dalam memantau perkembangan anak."
+  },
+  {
+    "id": "1",
+    "image": "/banner-3.jpg",
+    "title": "Kimia",
+    "description": "Memungkinkan pembelajaran kapan saja dan dimana saja serta mendukung keterlibatan orang tua dalam memantau perkembangan anak."
+  },
+  {
+    "id": "1",
+    "image": "/banner-1.jpg",
+    "title": "Biologi",
+    "description": "Memungkinkan pembelajaran kapan saja dan dimana saja serta mendukung keterlibatan orang tua dalam memantau perkembangan anak."
+  }
+]

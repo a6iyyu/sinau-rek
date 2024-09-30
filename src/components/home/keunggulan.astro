@@ -2,7 +2,7 @@
 import PropsKeunggulan from "@/data/keunggulan.json";
 ---
 
-<section class="mx-auto mt-24 grid w-4/5 cursor-default grid-cols-2 gap-10">
+<section class="mx-auto mt-16 grid w-4/5 cursor-default grid-cols-1 gap-10 lg:mt-24 lg:grid-cols-2">
   {PropsKeunggulan.map(item => (
     <div id={item.id} class="mt-5 flex items-center first:mt-0 lg:mt-0">
       <i class={`${item.icon} grid h-16 w-16 place-items-center rounded-xl bg-[#d9d9d9] [box-shadow:0.15rem_0.15rem_0_#bcbcbc99]`} />

@@ -1,0 +1,39 @@
+---
+import PropsMataPelajaran from "@/data/mata-pelajaran.json";
+---
+
+<section class="mt-16 flex flex-col items-center lg:mt-24">
+  <h3 class="mx-auto mb-4 mt-6 h-fit w-4/5 cursor-default text-center text-4xl font-bold tracking-wider">
+    Mata Pelajaran
+  </h3>
+  <h5 class="mx-auto mb-6 h-fit w-4/5 cursor-default text-justify text-base font-medium tracking-wider [text-align-last:center] lg:w-3/5 lg:text-center lg:text-xl lg:[text-align-last:center]">
+    Mata pelajaran disusun untuk memberikan Anda pendidikan yang menyeluruh
+    berdasarkan tren dan kebutuhan saat ini.
+  </h5>
+  <div class="mx-auto mt-4 grid w-4/5 max-w-[1440px] grid-cols-1 gap-10 lg:grid-cols-2">
+    {PropsMataPelajaran.map((item) => (
+      <a
+        id={item.id}
+        href={`/${item.title.toLowerCase().replace(/ /g, "-")}`}
+        class="flex h-fit w-fit flex-col transition-all duration-300 ease-in-out"
+      >
+        <img
+          src={item.image}
+          alt={item.title}
+          class="h-72 w-full rounded-lg object-cover [box-shadow:0.3rem_0.3rem_0_#bcbcbc] lg:h-60"
+          loading="lazy"
+        />
+        <h2 class="group mt-6 w-fit text-center text-2xl font-bold text-slate-950 transition-all duration-300 ease-in-out lg:text-left lg:text-3xl">
+          <span class="lg:bg-gradient-to-r lg:from-sky-500 lg:to-sky-500 lg:bg-[length:0%_0.125rem] lg:bg-left-bottom lg:bg-no-repeat lg:transition-all lg:duration-500 lg:ease-out lg:group-hover:bg-[length:100%_0.125rem]">
+            {item.title}
+          </span>
+        </h2>
+        <h4 class="group mt-4 w-fit text-justify text-base text-slate-950 transition-all duration-300 ease-in-out lg:text-lg">
+          <span class="lg:bg-gradient-to-r lg:from-sky-500 lg:to-sky-500 lg:bg-[length:0%_0.125rem] lg:bg-left-bottom lg:bg-no-repeat lg:transition-all lg:duration-500 lg:ease-out lg:group-hover:bg-[length:100%_0.125rem]">
+            {item.description}
+          </span>
+        </h4>
+      </a>
+    ))}
+  </div>
+</section>
