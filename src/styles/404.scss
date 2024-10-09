@@ -1,0 +1,24 @@
+@media screen and (max-width: 3120px) {
+  main {
+    height: 45rem;
+  }
+  img {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  main {
+    height: 40rem;
+  }
+  img {
+    width: fit-content;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  main {
+    height: fit-content;
+    text-align-last: center;
+  }
+}

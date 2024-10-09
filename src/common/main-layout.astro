@@ -3,7 +3,7 @@ import "@/styles/global.scss";
 import { Header } from "./header";
 import Footer from "./footer.astro";
 
-const { title, description } = Astro.props;
+const { title, description, special_page } = Astro.props;
 ---
 
 <!doctype html>
@@ -22,9 +22,9 @@ const { title, description } = Astro.props;
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
-  <body class="mx-auto max-w-[1440px] overflow-x-hidden bg-gradient-to-r from-[#0c0c1e] to-[#141414]">
-		<Header client:only="react" />
+  <body class={`mx-auto overflow-x-hidden  bg-gradient-to-r from-[#0c0c1e] to-[#141414] ${!special_page ? "max-w-[1440px]" : ""}`}>
+		<Header client:only="react" special_page={special_page} />
 		<slot />
-		<Footer />
+		{!special_page && <Footer />}
 	</body>
 </html>

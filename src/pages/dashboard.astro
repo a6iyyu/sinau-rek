@@ -1,5 +1,10 @@
 ---
 import MainLayout from "@/common/main-layout.astro";
+import { Sidebar } from "@/components/dashboard/sidebar";
+import HeaderDashboard from "@/components/dashboard/header-dashboard.astro";
 ---
 
-<MainLayout title="Dashboard" description=""></MainLayout>
+<MainLayout title="Dashboard" description="" special_page={true}>
+  <Sidebar client:only="react" />
+  <HeaderDashboard />
+</MainLayout>

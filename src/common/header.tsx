@@ -1,9 +1,9 @@
 import React from "react";
 import { HamburgerMenu } from "./hamburger-menu";
 
-export const Header: React.FC = () => {
+export const Header: React.FC<{ special_page: boolean }> = ({ special_page }) => {
   return (
-    <header className="mx-auto flex h-28 w-4/5 justify-between text-slate-50 lg:h-36">
+    <header className={`mx-auto flex h-28 w-4/5 justify-between text-slate-50 lg:h-36 ${special_page ? "hidden" : ""}`}>
       <section className="flex h-full w-1/5 items-center lg:w-1/6">
         <a
           href="/"
