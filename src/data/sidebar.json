@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "icon": "/curtain-right-expand-left.png",
+    "description": ""
+  },
+  {
+    "id": 2,
+    "icon": "/dashboard.png",
+    "description": "Dashboard"
+  },
+  {
+    "id": 3,
+    "icon": "/date.png",
+    "description": "Presensi"
+  },
+  {
+    "id": 4,
+    "icon": "/add-document.png",
+    "description": "Poin Keaktifan"
+  },
+  {
+    "id": 5,
+    "icon": "/file-document.png",
+    "description": "Materi Pembelajaran"
+  },
+  {
+    "id": 6,
+    "icon": "/desk.png",
+    "description": "Pemahaman Materi"
+  },
+  {
+    "id": 7,
+    "icon": "/add-group.png",
+    "description": "Siswa Perlu Bimbingan"
+  },
+  {
+    "id": 8,
+    "icon": "/chart.png",
+    "description": "Progres Pembelajaran"
+  },
+  {
+    "id": 9,
+    "icon": "/waterfall.png",
+    "description": "Laporan & Analitik"
+  },
+  {
+    "id": 10,
+    "icon": "/help-center.png",
+    "description": "Pusat Bantuan"
+  }
+]

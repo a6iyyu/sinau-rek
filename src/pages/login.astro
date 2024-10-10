@@ -1,8 +1,8 @@
 ---
 import MainLayout from "@/common/main-layout.astro"
-import LoginPage from "@/components/account/login.astro"
+import { LoginPage } from "@/components/account/login";
 ---
 
 <MainLayout title="Login - Welcome to SinauRek!" description="" special_page={true}>
-	<LoginPage />
+  <LoginPage client:only="react" />
 </MainLayout>
