@@ -23,7 +23,7 @@ const BlogCarousel = await getCollection("blog");
 <figure class="splide mt-8 h-full w-full overflow-x-hidden" id="splide-1">
   <div class="splide__track w-full">
     <ul class="splide__list">
-      {BlogCarousel.map((item) => (
+	{BlogCarousel.slice(0, 5).map((item) => (
         <a
           href={`/blog/${item.data.title.replace(/ /g, "-").toLowerCase()}`}
           class="splide__slide flex w-full"
@@ -42,7 +42,7 @@ const BlogCarousel = await getCollection("blog");
             </h2>
             <figcaption class="group mt-4 text-justify text-base font-medium text-slate-50 transition-all duration-300 ease-in-out [text-align-last:center] lg:[text-align-last:left]">
               <span class="lg:bg-gradient-to-r lg:from-sky-500 lg:to-sky-500 lg:bg-[length:0%_0.125rem] lg:bg-left-bottom lg:bg-no-repeat lg:transition-all lg:duration-500 lg:ease-out lg:group-hover:bg-[length:100%_0.125rem]">
-                {TruncateText(item.data.description, 75)}
+                {item.data.description}
               </span>
             </figcaption>
           </span>
