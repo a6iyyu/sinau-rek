@@ -18,6 +18,7 @@
     "@splidejs/splide-extension-auto-scroll": "^0.5.3",
     "@types/react": "^18.3.8",
     "@types/react-dom": "^18.3.0",
+    "@types/typed.js": "^2.0.0",
     "astro": "^4.15.8",
     "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.1",
@@ -27,6 +28,7 @@
     "sass": "^1.79.4",
     "scss": "^0.2.4",
     "tailwindcss": "^3.4.12",
+    "typed.js": "^2.1.0",
     "typescript": "^5.6.2"
   }
 }
