@@ -1,10 +1,10 @@
 ---
 import MainLayout from "@/common/main-layout.astro";
 import { ArticleHero } from "@/components/article/hero";
-import CarouselArticle from "@/components/article/carousel-article.astro";
+import Carousel from "@/components/article/carousel.astro";
 ---
 
 <MainLayout title="Artikel | SinauRek" description="Jelajahi samudera pengetahuan di halaman artikel kami, beragam bacaan informatif disajikan setiap saat!">
   <ArticleHero client:only="react" />
-  <CarouselArticle />
+  <Carousel />
 </MainLayout>

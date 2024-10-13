@@ -1,0 +1,11 @@
+---
+import { TitleAndSemesterOption } from "./title-and-semester-option";
+import NumericData from "./numeric-data.astro";
+import GridData from "./grid-data.astro";
+---
+
+<main class="ml-[20%] mt-10 flex h-full max-h-screen w-3/4 flex-col overflow-y-scroll lg:ml-[10%] lg:w-[85%]">
+  <TitleAndSemesterOption client:only="react" />
+  <NumericData />
+  <GridData  />
+</main>

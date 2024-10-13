@@ -2,9 +2,11 @@
 import MainLayout from "@/common/main-layout.astro";
 import { Sidebar } from "@/components/dashboard/sidebar";
 import HeaderDashboard from "@/components/dashboard/header-dashboard.astro";
+import MainDashboard from "@/components/dashboard/main-dashboard.astro";
 ---
 
-<MainLayout title="Dashboard" description="" special_page={true}>
+<MainLayout title="Dashboard | SinauRek" description="" special_page={true}>
   <Sidebar client:only="react" />
   <HeaderDashboard />
+  <MainDashboard />
 </MainLayout>

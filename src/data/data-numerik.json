@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "name": "Kelas Dikelola",
+    "percentage": "5",
+    "subject": "Kelas",
+    "image": "/kelas-dikelola.png",
+    "color": "#2db931"
+  },
+  {
+    "id": "2",
+    "name": "Kehadiran Siswa",
+    "percentage": "93",
+    "subject": "%",
+    "image": "/kehadiran.png",
+    "color": "#ffea34"
+  },
+  {
+    "id": "3",
+    "name": "Jumlah Siswa Aktif",
+    "percentage": "86",
+    "subject": "Siswa",
+    "image": "/siswa-aktif.png",
+    "color": "#1b517e"
+  },
+  {
+    "id": "4",
+    "name": "Perlu Bimbingan",
+    "percentage": "28",
+    "subject": "Siswa",
+    "image": "/siswa-perlu-bimbingan.png",
+    "color": "#8d4b51"
+  }
+]

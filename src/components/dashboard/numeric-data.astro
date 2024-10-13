@@ -1,0 +1,25 @@
+---
+import DataNumerik from "@/data/data-numerik.json";
+---
+
+<section class="mt-12 grid grid-cols-2 gap-8 text-slate-50 xl:grid-cols-4">
+  {DataNumerik.map((data) => (
+    <div
+      class="flex cursor-default rounded-xl border-2 border-white p-6"
+      id={data.id}
+      style={{ backgroundImage: `linear-gradient(to right bottom, ${data.color}, #170206)` }}
+    >
+      <div class="flex flex-1 flex-col">
+        <h5 class="text-2xl font-bold">{data.name}</h5>
+        <span class="mt-7 flex items-end">
+          <h4 class="text-3xl font-bold xl:text-5xl">{data.percentage}</h4>
+          &nbsp;
+          <h6 class="text-lg xl:text-2xl">{data.subject}</h6>
+        </span>
+      </div>
+      <div class="flex items-end">
+        <img src={data.image} alt={data.name} />
+      </div>
+    </div>
+  ))}
+</section>

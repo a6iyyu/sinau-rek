@@ -9,39 +9,39 @@ export const Sidebar: React.FC = () => {
       </a>
       <section className="max-h-[87.5%] h-full w-full overflow-y-scroll mt-10">
         <div className="m-auto flex w-fit cursor-pointer">
-          {SidebarData.slice(0, 1).map(list => (
-            <img src={`${list.icon}`} alt={`${list.description}`} className="m-auto" />
+          {SidebarData.slice(0, 1).map((list, i: number) => (
+            <img key={i} src={`${list.icon}`} alt={`${list.description}`} className="m-auto" />
           ))}
         </div>
         <hr className="h-1 mt-5" />
         <div className="m-auto flex w-fit cursor-pointer mt-5 bg-[#0000ee] rounded-md p-2">
-          {SidebarData.slice(1, 2).map(list => (
-            <img src={`${list.icon}`} alt={`${list.description}`} className="m-auto" />
+          {SidebarData.slice(1, 2).map((list, i: number) => (
+            <img key={i} src={`${list.icon}`} alt={`${list.description}`} className="m-auto" />
           ))}
         </div>
         <hr className="h-1 mt-5" />
         <div className="m-auto flex w-fit cursor-pointer flex-col">
-          {SidebarData.slice(2, 4).map(list => (
-            <img src={`${list.icon}`} alt={`${list.description}`} className="mx-auto first:mt-5 mb-6" />
+          {SidebarData.slice(2, 4).map((list, i: number) => (
+            <img key={i} src={`${list.icon}`} alt={`${list.description}`} className="mx-auto first:mt-5 mb-6" />
           ))}
         </div>
         <hr className="h-1" />
         <div className="m-auto flex w-fit cursor-pointer mt-5">
-          {SidebarData.slice(4, 5).map(list => (
-            <img src={`${list.icon}`} alt={`${list.description}`} className="m-auto" />
+          {SidebarData.slice(4, 5).map((list, i: number) => (
+            <img key={i} src={`${list.icon}`} alt={`${list.description}`} className="m-auto" />
           ))}
         </div>
         <hr className="h-1 mt-5" />
         <div className="m-auto flex w-fit cursor-pointer flex-col">
-          {SidebarData.slice(5, 8).map(list => (
-            <img src={`${list.icon}`} alt={`${list.description}`} className="mx-auto first:mt-5 mb-6 last:mb-5" />
+          {SidebarData.slice(5, 8).map((list, i: number) => (
+            <img key={i} src={`${list.icon}`} alt={`${list.description}`} className="mx-auto first:mt-5 mb-6 last:mb-5" />
           ))}
         </div>
       </section>
       <section className="max-h-[10%] h-full flex flex-col">
-        <hr className="h-2 mb-5" />
-        {SidebarData.slice(9, 10).map((list) => (
-          <div className="flex text-slate-50 cursor-pointer my-auto w-full">
+        <hr className="h-2" />
+        {SidebarData.slice(9, 10).map((list, i: number) => (
+          <div key={i} className="flex text-slate-50 cursor-pointer my-auto w-full">
             <img src={`${list.icon}`} alt="" className="m-auto" />
             <h4 className="hidden">{list.description}</h4>
           </div>

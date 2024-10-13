@@ -1,0 +1,34 @@
+---
+const ColourStyleStudy = [
+  {
+    id: "1",
+    colour: "#fbbf4c",
+    title: "Bertanya",
+  },
+  {
+    id: "2",
+    colour: "#1efdfd",
+    title: "Menjawab",
+  },
+];
+---
+
+<section class="h-full w-full rounded-xl border-2 border-[#232728] bg-[#1b1d1e] py-8 text-slate-50">
+  <div class="mx-auto flex w-[90%] cursor-default">
+    <div class="flex flex-1 flex-col">
+      <div class="flex items-center">
+        <img src="/keaktifan-siswa.png" alt="Icon" />
+        <h4 class="ml-2 text-2xl font-semibold">Keaktifan Siswa</h4>
+      </div>
+      <div class="mt-4 space-y-2">
+        {ColourStyleStudy.map(({ id, colour, title }) => (
+          <div id={id} class="flex items-center">
+            <span class="h-3 w-3 rounded-full" style={{ backgroundColor: colour }} />
+            <h5 class="ml-2">{title}</h5>
+          </div>
+        ))}
+      </div>
+    </div>
+    <img src="/data-keaktifan-siswa.png" alt="Data" class="my-auto h-28 lg:h-full" />
+  </div>
+</section>
