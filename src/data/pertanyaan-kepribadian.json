@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "pertanyaan": "Saya lebih suka mendengarkan penjelasan daripada membaca teks."
+  },
+  {
+    "id": "2",
+    "pertanyaan": "Saya lebih suka membaca buku atau artikel untuk mempelajari sesuatu."
+  },
+  {
+    "id": "3",
+    "pertanyaan": "Saya senang membuat rangkuman tertulis untuk memahami materi."
+  },
+  {
+    "id": "4",
+    "pertanyaan": "Saya lebih suka melakukan percobaan langsung untuk memahami suatu konsep."
+  },
+  {
+    "id": "5",
+    "pertanyaan": "Saya lebih suka bekerja dalam kelompok dibandingkan belajar sendiri."
+  },
+  {
+    "id": "6",
+    "pertanyaan": "Saya lebih suka belajar dengan kecepatan saya sendiri tanpa terburu-buru."
+  },
+  {
+    "id": "7",
+    "pertanyaan": "Saya belajar lebih baik ketika saya bisa bergerak atau menggunakan tangan saya."
+  }
+]

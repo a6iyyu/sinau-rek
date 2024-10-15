@@ -15,7 +15,7 @@ export const Header: React.FC<{ special_page: boolean }> = ({ special_page }) =>
         </a>
       </section>
       <nav className="hidden h-full w-4/5 text-lg font-semibold lg:flex lg:w-5/6 lg:items-center lg:justify-end">
-        {["Artikel", "Pelajaran", "Ringkasan", "Login"].map((menu, i: number) => (
+        {["Artikel", "Pelajaran", "Analisis Diri", "Login"].map((menu, i: number) => (
           <a
             href={`/${menu.toLowerCase().replace(/ /g, "-")}`}
             key={i}

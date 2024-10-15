@@ -1,0 +1,24 @@
+---
+const items = [
+  { id: "1", name: "Kepribadian", is_highlighted: false, icon: "/done.svg" },
+  { id: "2", name: "Gaya Belajar", is_highlighted: true },
+  { id: "3", name: "Emosi dan Sosial", is_highlighted: false },
+];
+---
+
+<ul class="flex h-fit flex-col rounded-xl border-2 border-[#2196f3] text-slate-50">
+  {items.map((item) => (
+    <li
+      id={item.id}
+      class={`mx-6 mt-6 flex cursor-pointer items-center first:mt-6 last:mb-6 ${item.is_highlighted ? "rounded-lg bg-gradient-to-bl from-[#f8aaff] to-[#90cff6] px-3 py-2 font-bold text-slate-950" : ""}`}
+    >
+      <h4>{item.name}</h4>
+      {item.icon && (
+        <>
+          &emsp;&emsp;&emsp;
+          <img src={item.icon} alt="Icon" class="mr-6" />
+        </>
+      )}
+    </li>
+  ))}
+</ul>

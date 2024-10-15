@@ -6,21 +6,33 @@
     "description": "Mengasah kemampuan berpikir logis dan pemecahan masalah dengan pendekatan angka dan teori."
   },
   {
-    "id": "1",
+    "id": "2",
     "image": "/fisika.jpg",
     "title": "Fisika",
     "description": "Menjelajahi prinsip dasar alam semesta dengan mempelajari gerak, energi, gaya, dan hukum-hukum alam."
   },
   {
-    "id": "1",
+    "id": "3",
     "image": "/kimia.jpg",
     "title": "Kimia",
     "description": "Mengungkap rahasia dunia molekul dan atom melalui analisis reaksi kimia, sifat-sifat zat, dan perubahan materi."
   },
   {
-    "id": "1",
+    "id": "4",
     "image": "/biologi.jpg",
     "title": "Biologi",
     "description": "Mempelajari kehidupan dalam segala bentuknya, mulai dari sel terkecil hingga ekosistem yang kompleks."
+  },
+  {
+    "id": "5",
+    "image": "/sejarah-indonesia.jfif",
+    "title": "Sejarah Indonesia",
+    "description": "Menyelami perjalanan bangsa dari masa pra-sejarah hingga era modern, mengungkap peristiwa penting dan pahlawan nasional."
+  },
+  {
+    "id": "6",
+    "image": "/bahasa-indonesia.webp",
+    "title": "Bahasa Indonesia",
+    "description": "Menggali kekayaan bahasa dan sastra Indonesia, serta mengasah kemampuan berkomunikasi secara efektif dan kreatif."
   }
 ]
