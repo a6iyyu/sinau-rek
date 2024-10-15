@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "nama": "Ahmad Raffi Fauzi",
+    "jenis-kelamin": "Laki-laki",
+    "keaktifan": "Sangat Aktif",
+    "kehadiran": "100%",
+    "gaya-belajar": "Kinestetik",
+    "nomor-telepon-wali": "082135456789"
+  },
+  {
+    "id": "2",
+    "nama": "Abdullah Basayev",
+    "jenis-kelamin": "Laki-laki",
+    "keaktifan": "Aktif",
+    "kehadiran": "72%",
+    "gaya-belajar": "Campuran",
+    "nomor-telepon-wali": "0872476789012"
+  },
+  {
+    "id": "3",
+    "nama": "Bayu Saputra",
+    "jenis-kelamin": "Laki-laki",
+    "keaktifan": "Kurang Aktif",
+    "kehadiran": "49%",
+    "gaya-belajar": "Auditori",
+    "nomor-telepon-wali": "081812345678"
+  },
+  {
+    "id": "4",
+    "nama": "Oltha Nur Fadhillah",
+    "jenis-kelamin": "Perempuan",
+    "keaktifan": "Sangat Aktif",
+    "kehadiran": "92%",
+    "gaya-belajar": "Auditori",
+    "nomor-telepon-wali": "081567890123"
+  },
+  {
+    "id": "5",
+    "nama": "Nabilla Putri",
+    "jenis-kelamin": "Perempuan",
+    "keaktifan": "Sangat Aktif",
+    "kehadiran": "94%",
+    "gaya-belajar": "Kinestetik",
+    "nomor-telepon-wali": "081348765432"
+  },
+  {
+    "id": "6",
+    "nama": "Rafi Abiyyu",
+    "jenis-kelamin": "Laki-laki",
+    "keaktifan": "Kurang Aktif",
+    "kehadiran": "36%",
+    "gaya-belajar": "Campuran",
+    "nomor-telepon-wali": "082367890123"
+  },
+  {
+    "id": "7",
+    "nama": "Yefta Octa",
+    "jenis-kelamin": "Laki-laki",
+    "keaktifan": "Kurang Aktif",
+    "kehadiran": "45%",
+    "gaya-belajar": "Visual",
+    "nomor-telepon-wali": "089876543210"
+  }
+]

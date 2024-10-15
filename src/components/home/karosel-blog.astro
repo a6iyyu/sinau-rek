@@ -22,7 +22,7 @@ const BlogCarousel = await getCollection("blog");
 <figure class="splide mt-8 h-full w-full overflow-x-hidden" id="splide-1">
   <div class="splide__track w-full">
     <ul class="splide__list">
-	{BlogCarousel.slice(0, 5).map((item) => (
+	    {BlogCarousel.slice(0, 4).map((item) => (
         <a
           href={`/blog/${item.data.title.replace(/ /g, "-").toLowerCase()}`}
           class="splide__slide flex w-full"

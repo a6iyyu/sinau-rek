@@ -11,9 +11,16 @@ const { title, description, special_page } = Astro.props;
   <head>
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=7" />
     <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content="/favicon.ico" />
+    <meta name="robots" content="sinaurek, index" />
     <title>{title}</title>
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />

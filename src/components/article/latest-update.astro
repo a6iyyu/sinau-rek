@@ -1,0 +1,38 @@
+---
+import { getCollection } from "astro:content";
+import { TruncateText } from "@/common/truncate-text";
+
+const LatestArticle = await getCollection("blog");
+---
+
+<main class="mx-auto mt-28 flex w-4/5 flex-col text-slate-50">
+  <section class="flex items-center">
+    <img src="/chart.png" alt="Icon" />
+    &emsp;
+    <h4 class="cursor-default text-2xl font-bold">Artikel Terkini</h4>
+  </section>
+  <section class="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-2">
+    {LatestArticle.slice(6, 10).map((article) => (
+      <a
+        href={`/blog/${article.data.title.replace(/ /g, "-").toLowerCase()}`}
+        class="flex flex-col"
+      >
+        <img
+          src={article.data.image}
+          alt={article.data.title}
+          class="h-72 rounded-xl"
+        />
+        <h2 class="group mt-2 text-justify text-xl font-bold text-slate-50 transition-all duration-300 ease-in-out [text-align-last:left] lg:text-2xl">
+          <span class="lg:bg-gradient-to-r lg:from-sky-500 lg:to-sky-500 lg:bg-[length:0%_0.125rem] lg:bg-left-bottom lg:bg-no-repeat lg:transition-all lg:duration-500 lg:ease-out lg:group-hover:bg-[length:100%_0.125rem]">
+            {TruncateText(article.data.title, 75)}
+          </span>
+        </h2>
+        <h5 class="group mt-2 text-justify text-base font-medium text-slate-50 transition-all duration-300 ease-in-out [text-align-last:left]">
+          <span class="lg:bg-gradient-to-r lg:from-sky-500 lg:to-sky-500 lg:bg-[length:0%_0.125rem] lg:bg-left-bottom lg:bg-no-repeat lg:transition-all lg:duration-500 lg:ease-out lg:group-hover:bg-[length:100%_0.125rem]">
+            {TruncateText(article.data.description, 100)}
+          </span>
+        </h5>
+      </a>
+    ))}
+  </section>
+</main>
