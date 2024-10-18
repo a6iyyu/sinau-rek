@@ -1,5 +1,0 @@
-Buatkan saya sintaks README setelah definisi SinauRek agar para juri dapat menggunakannya, langkah-langkahnya sebagai berikut:
-1. Ekstrak RAR kode proyek yang sudah ada ke folder dalam library, misalkan ditaruh di E:/
-2. Masuk ke dalam folder proyek, kemudian jalankan perintah `npm install` untuk mengunduh dependensi.
-3. Jika selesai mengunduh, jalankan `npm run dev`
-4. Website akan dirender dan siap untuk dipakai. 
