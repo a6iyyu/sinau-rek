@@ -33,7 +33,7 @@ npm run dev
 ```
 
 5. **Akses Website**  
-Website akan dirender dan siap digunakan. Anda dapat mengaksesnya melalui browser dengan alamat yang akan ditampilkan di terminal (biasanya `http://localhost:3000`).
+Website akan dirender dan siap digunakan. Anda dapat mengaksesnya melalui browser dengan alamat yang akan ditampilkan di terminal (`http://localhost:5444`).
 
 <h2 align="center">Fitur</h2>
 
